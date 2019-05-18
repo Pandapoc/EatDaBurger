@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-const exphs = require('express-handlebars')
 const { join } = require('path')
 
 app.use(express.static(join(__dirname, 'public')))
